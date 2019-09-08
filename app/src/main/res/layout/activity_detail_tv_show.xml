@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail.DetailActivityTvShow">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include
+            layout="@layout/layout_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_poster_tv_show"
+            android:layout_width="236dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/poster_image"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@android:color/holo_blue_dark" />
+        
+<!--Pembatas Tipis 1-->
+        <View
+            android:id="@+id/view_first"
+            android:layout_width="0dp"
+            android:layout_height="0.001dp"
+            android:layout_marginTop="0dp"
+            android:background="#bbb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_poster_tv_show" />
+
+        <TextView
+            android:id="@+id/txt_film_name_tv_show"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/film_name"
+            android:textColor="@color/item"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_first" />
+
+<!--Pembatas Tebal-->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.001dp"
+            android:background="#bbb"
+            app:layout_constraintBottom_toTopOf="@id/view_2"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:layout_marginTop="12dp"
+            android:background="#ececec"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_film_name_tv_show" />
+        <View
+            android:id="@+id/view_2_bottom"
+            android:layout_width="0dp"
+            android:layout_height="0.001dp"
+            android:layout_marginStart="16dp"
+            android:background="#bbb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_2" />
+
+<!--first_air-->
+        <TextView
+            android:id="@+id/title_first_air_date"
+            style="@style/TextSpec.Field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/tv_first_air_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_2_bottom" />
+        <TextView
+            android:id="@+id/txt_first_air_date"
+            style="@style/TextSpec.Value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/tv_first_air_date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_first_air_date" />
+
+<!--popularity-->
+        <TextView
+            android:id="@+id/title_popularity"
+            style="@style/TextSpec.Field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/popularity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_first_air_date" />
+        <TextView
+            android:id="@+id/txt_popularity_tv_show"
+            style="@style/TextSpec.Value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/popularity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_popularity" />
+
+<!--vote-->
+        <TextView
+            android:id="@+id/title_vote"
+            style="@style/TextSpec.Field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/vote"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_popularity_tv_show" />
+        <TextView
+            android:id="@+id/txt_vote_tv_show"
+            style="@style/TextSpec.Value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/vote"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_vote" />
+
+<!--Pembatas Tipis overview-->
+        <View
+            android:id="@+id/view_overview"
+            android:layout_width="0dp"
+            android:layout_height="0.001dp"
+            android:layout_marginTop="4dp"
+            android:background="#bbb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_vote_tv_show" />
+
+<!--overview-->
+        <TextView
+            android:id="@+id/title_overview"
+            style="@style/TextSpec.Field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/tv_overview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_overview" />
+        <TextView
+            android:id="@+id/txt_overview_tv_show"
+            style="@style/TextSpec.Value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/tv_overview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_overview" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_tv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_vote_tv_show"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/title_first_air_date"
+            app:srcCompat="@drawable/ic_favorite_border_white_24dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

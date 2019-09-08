@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">Katalog Filmku V4</string>
+    <string name="title_home">Home</string>
+    <string name="movies">Movies</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="film_name">Judulnya</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="poster">Poster</string>
+    <string name="tv_film_name">Film Name</string>
+    <string name="tv_release_date">Release Date :</string>
+    <string name="tv_first_air_date">First Air Date :</string>
+    <string name="tv_overview">Overview : </string>
+    <string name="poster_image">Poster Image</string>
+    <string name="you_choose">You Choose </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popularity">Popularity :</string>
+    <string name="vote">Vote :</string>
+
+
+    <!--<string-array name="data_poster_movie">-->
+        <!--<item>@drawable/poster_a_star</item>-->
+        <!--<item>@drawable/poster_alita</item>-->
+        <!--<item>@drawable/poster_aquaman</item>-->
+        <!--<item>@drawable/poster_avengerinfinity</item>-->
+        <!--<item>@drawable/poster_bohemian</item>-->
+        <!--<item>@drawable/poster_creed</item>-->
+        <!--<item>@drawable/poster_dragon</item>-->
+        <!--<item>@drawable/poster_glass</item>-->
+        <!--<item>@drawable/poster_mortal_engines</item>-->
+        <!--<item>@drawable/poster_spiderman</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_film_name_movie">-->
+        <!--<item>A Star Is Born (2018)</item>-->
+        <!--<item>Alita: Battle Angel (2019)</item>-->
+        <!--<item>Aquaman (2018)</item>-->
+        <!--<item>Avengers: Infinity War (2018)</item>-->
+        <!--<item>Bohemian Rhapsody (2018)</item>-->
+        <!--<item>Creed II (2018)</item>-->
+        <!--<item>How to Train Your Dragon: The Hidden World (2019)</item>-->
+        <!--<item>Glass (2019)</item>-->
+        <!--<item>Mortal Engines (2018)</item>-->
+        <!--<item>Spider-Man: Into the Spider-Verse (2018)</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_duration_movie">-->
+        <!--<item>136m</item>-->
+        <!--<item>122m</item>-->
+        <!--<item>144m</item>-->
+        <!--<item>149m</item>-->
+        <!--<item>134m</item>-->
+        <!--<item>130m</item>-->
+        <!--<item>104m</item>-->
+        <!--<item>129m</item>-->
+        <!--<item>128m</item>-->
+        <!--<item>117m</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_score_movie">-->
+        <!--<item>7.5 / 10</item>-->
+        <!--<item>7.5 / 10</item>-->
+        <!--<item>6.8 / 10</item>-->
+        <!--<item>8.3 / 10</item>-->
+        <!--<item>8.1 / 10</item>-->
+        <!--<item>6.7 / 10</item>-->
+        <!--<item>7.6 / 10</item>-->
+        <!--<item>6.8 / 10</item>-->
+        <!--<item>6.1 / 10</item>-->
+        <!--<item>8.5 / 10</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_genre_movie">-->
+        <!--<item>Drama, Music, Romance</item>-->
+        <!--<item>Action, Adventure, Sci-Fi, Thriller</item>-->
+        <!--<item>Action, Adventure, Fantasy</item>-->
+        <!--<item>Action, Adventure, Fantasy</item>-->
+        <!--<item>Biography, Drama, Music</item>-->
+        <!--<item>Drama, Sport</item>-->
+        <!--<item>Animation, Action, Adventure, Comedy, Family, Fantasy</item>-->
+        <!--<item>Drama, Sci-Fi, Thriller</item>-->
+        <!--<item>Action, Adventure, Fantasy, Sci-Fi, Thriller</item>-->
+        <!--<item>Animation, Action, Adventure, Family, Sci-Fi</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_director_movie">-->
+        <!--<item>Bradley Cooper</item>-->
+        <!--<item>Robert Rodriguez</item>-->
+        <!--<item>James Wan</item>-->
+        <!--<item>Joe Russo</item>-->
+        <!--<item>Bryan Singer</item>-->
+        <!--<item>Steven Caple Jr.</item>-->
+        <!--<item>Dean DeBlois</item>-->
+        <!--<item>M. Night Shyamalan</item>-->
+        <!--<item>Christian Rivers</item>-->
+        <!--<item>Bob Persichetti, Peter Ramsey, Rodney Rothman</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_cast_movie">-->
+        <!--<item>Lady Gaga, Bradley Cooper, Sam Elliott, Andrew Dice Clay, Rafi Gavron</item>-->
+        <!--<item>Rosa Salazar, Christoph Waltz, Jennifer Connelly, Mahershala Ali</item>-->
+        <!--<item>Jason Momoa, Amber Heard, Willem Dafoe, Patrick Wilson, Nicole Kidman</item>-->
+        <!--<item>Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson</item>-->
+        <!--<item>Rami Malek, Lucy Boynton, Gwilym Lee, Ben Hardy, Joseph Mazello</item>-->
+        <!--<item>Michael B. Jordan, Sylvester Stallone, Tessa Thompson, Dolph Lundgren, Phylicia Rashad</item>-->
+        <!--<item>Jay Baruchel, America Ferrera, F. Murray Abraham, Cate Blanchett</item>-->
+        <!--<item>James McAvoy, Bruce Willis, Samuel L. Jackson, Anya Taylor-Joy</item>-->
+        <!--<item>Hera Hilmar, Robert Sheehan, Hugo Weaving, Jihae</item>-->
+        <!--<item>Shameik Moore, Jake Johnson, Hailee Steinfeld, Mahershala Ali</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_synopsis_movie">-->
+        <!--<item>A country music star whose career began to fade, Jackson Maine (Bradley Cooper) found a talent that was very talented in himself from a young musician named Ally (Lady Gaga). Maine managed to orbit Ally into a promising young star. But both of them are involved in a relationship that is far more than just a mentor and students. Along with the skyrocketing career of Ally and herself, Maine experienced a dilemma regarding this issue.</item>-->
+        <!--<item>The disabled Cyborg woman is revived, but can\'t remember anything from her past life and continues her search to find out who she is.</item>-->
+        <!--<item>Formerly home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by a power-hungry King Orm. With a huge army, the Orm planned to conquer the remaining oceans and then to the surface of the world. What was blocking his path was Arthur Curry, half-human half-brother Orm and the true heir to the throne.</item>-->
+        <!--<item>Because the Avengers were Baird, Jacob Scipio, Dempsey Bovell, Corey Johnsonn, their allies continued to protect the world from threats that were too big to be handled by a hero, new dangers had emerged from the cosmic shadow: Thanos. A despot of intergalactic blasphemy, the aim is to gather all six Stone Infinity, unimaginable artifacts of power, and use them to cause the will to rotate in all reality. Everything that the Avengers have fought for has evolved to this day - the fate of the Earth and its existence has never been more certain.</item>-->
+        <!--<item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon took the world of music by storm when they formed the rock band \'n\' roll Queen in 1970. Hit songs became an instant classic. When Mercury\'s increasingly wild lifestyle began to run out of control, Queen immediately faced her biggest challenge - finding ways to keep the band together amid successes and strengths.</item>-->
+        <!--<item>Between personal obligations and training for the next big fight against opponents who have ties to his family\'s past, Adonis Creed faces the challenges of his life.</item>-->
+        <!--<item>When Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless\'s discovery of a wild and elusive pair attracts Night Fury away. When danger increased at home and the Hiccup government as the village head was tested, both dragons and riders had to make an impossible decision to save their species.</item>-->
+        <!--<item>David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities.</item>-->
+        <!--<item>In a post-apocalyptic world where cities drive wheels and eat each other to survive, two people meet in London and try to stop the conspiracy.</item>-->
+        <!--<item>Teen Miles Morales became Spider-Man from reality, crossing his path with five colleagues from another dimension to stop the threat to all reality.</item>-->
+    <!--</string-array>-->
+
+
+
+    <!--<string-array name="data_poster_tv_show">-->
+        <!--<item>@drawable/poster_arrow</item>-->
+        <!--<item>@drawable/poster_doom_patrol</item>-->
+        <!--<item>@drawable/poster_dragon_ball</item>-->
+        <!--<item>@drawable/poster_fairytail</item>-->
+        <!--<item>@drawable/poster_family_guy</item>-->
+        <!--<item>@drawable/poster_flash</item>-->
+        <!--<item>@drawable/poster_god</item>-->
+        <!--<item>@drawable/poster_gotham</item>-->
+        <!--<item>@drawable/poster_grey_anatomy</item>-->
+        <!--<item>@drawable/poster_hanna</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_film_name_tv_show">-->
+        <!--<item>Arrow (2012)</item>-->
+        <!--<item>Doom Patrol (2019)</item>-->
+        <!--<item>Dragon Ball (1986)</item>-->
+        <!--<item>Fairy Tail (2009)</item>-->
+        <!--<item>Family Guy (1999)</item>-->
+        <!--<item>The Flash (2014)</item>-->
+        <!--<item>Game of Thrones (2011)</item>-->
+        <!--<item>Gotham (2014)</item>-->
+        <!--<item>Grey\'s Anatomy (2005)</item>-->
+        <!--<item>Hanna (2019)</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_duration_tv_show">-->
+        <!--<item>42m</item>-->
+        <!--<item>60m</item>-->
+        <!--<item>25m</item>-->
+        <!--<item>25m</item>-->
+        <!--<item>22m</item>-->
+        <!--<item>43m</item>-->
+        <!--<item>57m</item>-->
+        <!--<item>42m</item>-->
+        <!--<item>41m</item>-->
+        <!--<item>60m</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_score_tv_show">-->
+        <!--<item>7.7 / 10</item>-->
+        <!--<item>8.3 / 10</item>-->
+        <!--<item>7.1 / 10</item>-->
+        <!--<item>6.4 / 10</item>-->
+        <!--<item>6.5 / 10</item>-->
+        <!--<item>7.9 / 10</item>-->
+        <!--<item>9.5 / 10</item>-->
+        <!--<item>7.9 / 10</item>-->
+        <!--<item>7.6 / 10</item>-->
+        <!--<item>7.6 / 10</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_genre_tv_show">-->
+        <!--<item>Action, Adventure, Crime, Drama, Mystery, Sci-Fi</item>-->
+        <!--<item>Action, Adventure, Comedy, Drama, Mystery, Sci-Fi</item>-->
+        <!--<item>Comedy, Fantasy, Animation, Action, Adventure</item>-->
+        <!--<item>Action, Advanture, Animation, Comedy, Fantasy</item>-->
+        <!--<item>Animation, Comedy</item>-->
+        <!--<item>Action, Adventure, Drama, Sci-Fi</item>-->
+        <!--<item>Action, Adventure, Drama, Fantasy, Romance</item>-->
+        <!--<item>Action, Crime, Drama, Mystery, Sci-Fi, Thriller</item>-->
+        <!--<item>Drama, Romance</item>-->
+        <!--<item>Action, Drama</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_creator_tv_show">-->
+        <!--<item>Greg Berlanti, Marc Guggenheim, Andrew Kreisberg</item>-->
+        <!--<item>Jeremy Carver</item>-->
+        <!--<item>Akira Toriyama</item>-->
+        <!--<item>Hiro Mashima</item>-->
+        <!--<item>Seth MacFarlane</item>-->
+        <!--<item>Greg Berlanti, Geoff Johns, Andrew Kreisberg</item>-->
+        <!--<item>David Benioff, D.B. Weiss</item>-->
+        <!--<item>Bruno Heller</item>-->
+        <!--<item>Shonda Rhimes</item>-->
+        <!--<item>David Farr</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_cast_tv_show">-->
+        <!--<item>Stephen Amell, David Ramsey, Emily Bett Rickards, Katie Cassidy</item>-->
+        <!--<item>Diane Guerrero, April Bowlby, Alan Tudyk, Matt Bomer</item>-->
+        <!--<item>Masako Nozawa (Son Goku), Mayumi Tanaka (Krillin), Hiromi Tsuru (Bulma), Tōru Furuya (Yamcha)</item>-->
+        <!--<item>Tetsuya Kakihara (Natsu Dragneel), Aya Hirano (Lucy Heartfilia), Rie Kugimiya (Happy), Yuichi Nakamura (Gray Fullbuster)</item>-->
+        <!--<item>Seth MacFarlane (Peter Griffin, Brian Griffin, Stewie Griffin, Glenn Quagmire, Tom Tucker, Dewa, Kool-Aid Guy), Alex Borstein (Marguerite Pewterschmidt, Lois Griffin (suara), Tricia Takanawa, Loretta Brown, Barbara Pewterschmidt), Mila Kunis (Meg Griffin), Seth Green (Chris Griffin)</item>-->
+        <!--<item>Grant Gustin, Candice Patton, Danielle Panabaker, Carlos Valdes</item>-->
+        <!--<item>Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington</item>-->
+        <!--<item>Ben McKenzie, Donal Logue, David Mazouz, Sean Pertwee</item>-->
+        <!--<item>Justin Chambers, Ellen Pompeo, Chandra Wilson, James Pickens Jr.</item>-->
+        <!--<item>Esme Creed-Miles, Mireille Enos, Joel Kinnaman, Rhianne Barreto</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="data_synopsis_tv_show">-->
+        <!--<item>The spoiled billionaire Playboy, Oliver Queen, was lost and allegedly killed when his cruise ship disappeared at sea. He returned five years later, a man who changed, determined to clean the city as a vigilante armed with a bow.</item>-->
+        <!--<item>The adventures of an idealist crazy scientist and his field team from very strong exiles.</item>-->
+        <!--<item>Once upon a time in the mountains, a battle master known as Gohan found a strange boy whom he named Goku. Gohan raises him and trains Goku in martial arts until he dies. The young and very strong boy is alone, but easy to manage. Then one day, Goku met a teenage girl named Bulma, whose search for a dragon ball took her to Goku\'s house. Together, they set out to find the seven dragon balls in an adventure that will change Goku\'s life forever. See how Goku met friends for the rest of his life Bulma, Yamcha, Krillin, Master Roshi and many more.</item>-->
+        <!--<item>Lucy is a 17 year old girl, who wants to become a full witch. One day while visiting Harujion City, he met Natsu, a young man who was easily sick because of all kinds of transportation. But Natsu is not just any ordinary child, he is a member of one of the most famous guild wars in the world: Fairy Tail.</item>-->
+        <!--<item>Freakin\'s animated series Sweet, sick, twisted and wrong, displays the dysfunctional Griffin family adventure. Clumsy Peter and Lois who have suffered three children. Stewie (a brilliant but sadistic baby who is determined to kill her mother and take over the world), Meg (the oldest, and most unpopular girl in town) and Chris (middle child, she is not too smart but has a passion for movies). The last member of the family is Brian - a dog that can talk and more than a pet, he looks after Stewie, while sipping Martinis and sorting out his own life problems.</item>-->
+        <!--<item>After being struck by lightning, Barry Allen wakes up from his coma to find that he is given super speed power, becoming Flash, fighting crime in Central City.</item>-->
+        <!--<item>Nine noble families fought to master the land of mythical Westeros, while ancient enemies returned after thousands of years of inactivity.</item>-->
+        <!--<item>The story behind Detective James Gordon\'s revival became famous in Gotham City in the years before Batman\'s arrival.</item>-->
+        <!--<item>Drama centered on personal and professional lives from their five surgical surgeons and supervisors.</item>-->
+        <!--<item>In the same section, high-concept thriller and adult drama, HANNA follows the journey of an extraordinary young girl who grew up in the forest, when she avoided the endless pursuit of CIA agents who had no books and tried to dig the truth behind who she was is.</item>-->
+    <!--</string-array>-->
+</resources>

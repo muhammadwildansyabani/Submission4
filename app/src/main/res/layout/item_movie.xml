@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_item_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardMaxElevation="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:id="@+id/img_item_poster_movie"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/poster"
+                android:scaleType="fitXY"
+                tools:srcCompat="@tools:sample/avatars"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="13dp"
+                tools:src="@android:color/darker_gray" />
+
+
+            <TextView
+                android:id="@+id/tv_item_title_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@id/img_item_poster_movie"
+                android:layout_toRightOf="@id/img_item_poster_movie"
+                tools:text="@string/tv_film_name" />
+
+            <TextView
+                android:id="@+id/tv_item_first_air_date_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textSize="12sp"
+                android:layout_below="@id/tv_item_title_movie"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_toEndOf="@id/img_item_poster_movie"
+                android:layout_toRightOf="@id/img_item_poster_movie"
+                tools:text="@string/tv_release_date" />
+
+            <TextView
+                android:id="@+id/tv_item_overview_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:layout_below="@id/tv_item_first_air_date_movie"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_toEndOf="@id/img_item_poster_movie"
+                android:layout_toRightOf="@id/img_item_poster_movie"
+                tools:text="@string/tv_overview" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.001dp"
+                android:background="#bbb"
+                tools:layout_editor_absoluteY="175dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
